@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest>
     <application name="Matrix">
         <crown name="Matrix">
@@ -7,13 +7,10 @@
         </crown>
         <meta key="author">AppSpace Sample</meta>
         <meta key="version">2.5.0</meta>
-        <meta key="licensed">false</meta>
         <meta key="priority">low</meta>
         <meta key="tags">Algorithm</meta>
         <meta key="read-protected">false</meta>
         <meta key="copy-protected">false</meta>
-        <entry path="scripts" default="Matrix.lua">
-            <file type="text/x-lua">Matrix.lua</file>
-        </entry>
+        <entry default="Matrix.lua" path="scripts"/>
     </application>
 </manifest>
